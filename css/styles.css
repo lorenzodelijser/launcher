@@ -1,0 +1,177 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    padding-top: 128px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding: 16px;
+    border-radius: 16px;
+    transition: 0.2s ease background;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+footer a:hover {
+    background: rgb(255, 255, 255);
+}
+
+.card {
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    height: 256px;
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    padding: 32px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transition: 0.2s ease background;
+}
+
+.card:hover {
+    background: rgb(255, 255, 255);
+}
+
+.card svg {
+    color:rgb(0, 0, 0);
+    margin-bottom: 16px;
+    transform: translateZ(40px);
+}
+
+.card span {
+    transform: translateZ(20px);
+}
+
+.shadow {
+    box-shadow: 0 0 32px rgba(110, 110, 110, 0.11);
+    transition: 0.2s ease box-shadow;
+}
+
+.shadow:hover {
+    box-shadow: 0 0 32px rgba(110, 110, 110, 0.11),
+                0 1px 1px rgba(110, 110, 110, 0.11),
+                0 2px 2px rgba(110, 110, 110, 0.11),
+                0 4px 4px rgba(110, 110, 110, 0.11),
+                0 8px 8px rgba(110, 110, 110, 0.11),
+                0 16px 16px rgba(110, 110, 110, 0.11),
+                0 32px 32px rgba(110, 110, 110, 0.11);
+}
+
+#waving-hand-sign {
+    animation-name: wave;
+    animation-duration: 0.2s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(21, 21, 21);
+        color: rgb(255, 255, 255);
+    }
+
+    a {
+        color:rgb(255, 255, 255);
+    }
+
+    footer a {
+        background: rgb(26, 26, 26);
+        color:rgb(255, 255, 255);
+    }
+
+    footer a:hover {
+        background: rgb(32, 32, 32);
+    }
+
+    .card {
+        background: rgb(26, 26, 26);
+        color:rgb(255, 255, 255);
+    }
+
+    .card:hover {
+        background: rgb(32, 32, 32);
+    }
+
+    .card svg {
+        color:rgb(255, 255, 255);
+    }
+
+    .shadow {
+        box-shadow: 0 0 0 rgba(0,0,0,0.11);
+    }
+
+    .shadow:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+                    0 2px 2px rgba(0,0,0,0.11),
+                    0 4px 4px rgba(0,0,0,0.11),
+                    0 8px 8px rgba(0,0,0,0.11),
+                    0 16px 16px rgba(0,0,0,0.11),
+                    0 32px 32px rgba(0,0,0,0.11);
+    }
+}
+
+@keyframes wave {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}
