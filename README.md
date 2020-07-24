@@ -4,7 +4,7 @@
 
 Launcher is a startup page made with HTML, CSS and JavaScript. The page will wave and greet me and give several options for opening a collection of webpages to focus on work. Grouped by Ideation, Design, Development and writing. It supports system dark and light theme.
 
-Check out the live version on: [launcher-lorenzo.vercel.app](launcher-lorenzo.vercel.app)
+Check out the live version on: [launcher-lorenzo.vercel.app](https://launcher-lorenzo.vercel.app/)
 
 For this project I used vanilla-tilt.js for the 3d hover effect and Boxicons for icons.
 
