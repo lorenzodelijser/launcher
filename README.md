@@ -9,7 +9,7 @@ Launcher is a startup page made with HTML, CSS and JavaScript. The page will wav
 ## Recources used
 
 - [vanilla-tilt.js](https://github.com/micku7zu/vanilla-tilt.js) by [Șandor Sergiu](https://github.com/micku7zu)
-- [Boxicons GitHub](https://github.com/atisawd/boxicons) by [Atisa](https://github.com/atisawd)
+- [Boxicons](https://github.com/atisawd/boxicons) by [Atisa](https://github.com/atisawd)
 
 #
 
