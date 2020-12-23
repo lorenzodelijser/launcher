@@ -13,4 +13,4 @@ Launcher is a startup page made with HTML, CSS and JavaScript. The page will wav
 
 #
 
-Feel free to reach out to me through email at [hey@lorenzodelijser.com](hey@lorenzodelijser.com) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback. Special thanks to Frank Roodnat for sparking this idea check him out on [Twitter](https://twitter.com/FrankRoodnat) or [GitHub](https://github.com/FrankRoodnat).
+Feel free to reach out to me through email at [hey@lorenzodelijser.com](mailto:hey@lorenzodelijser.com) or on [Twitter](https://twitter.com/lorenzodelijser) if you have any questions or feedback. Special thanks to [Frank Roodnat](https://twitter.com/FrankRoodnat) for sparking this idea.
